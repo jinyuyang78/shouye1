@@ -1,0 +1,35 @@
+	body,h1,h2,h3,h4,h5,h6,p,ul,ol,dd,dl,input,img {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		border: none;
+	}
+	/*设置默认的文字大小和类型*/
+	body {
+		font-size: 14px;
+		font-family: "microsoft yahei",arial;
+		border:none;
+	}
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	i,em {
+		font-style: normal;
+	}
+	input {
+		outline: none;
+	}
+	a {
+		outline: none;
+	}
+	select,input,img {
+		vertical-align: middle;
+	}
+	.clear-fix:after { content: ""; display: block; clear: both; }
+	.clear-fix { zoom: 1; }
+	.fl { float: left; }
+	.fr { float: right; }
